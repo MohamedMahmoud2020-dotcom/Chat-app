@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:#f7f4f4;
+}
+.colored-box{
+  background-color: #bd41c5;
+  width: 385px;
+  height: 570px;
+  border-radius: 0 0 200px 200px;
+  position: relative;
+  left: -50px;
+}
+.mobile{
+  position: absolute;
+  width:270px;
+  height:500px;
+  background-color: white;
+  top: 30px;
+  left: 250px;
+  border-radius: 20px;
+}
+.mobile .inner-mobile{
+  width: 260px;
+  height: 488px;
+  background-color:#f7f4f4;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+.mobile .inner-mobile .top-inner-mobile{
+  background-color: #bd41c5;
+  border-radius: 20px 20px 10px 10px;
+  color: white;
+  position: relative;
+  height:70px;
+}
+.top-top-inner-mobile{
+  width:150px;
+  height:25px;
+  margin: auto;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  color: white;
+}
+.top-inner-mobile div:nth-of-type(2){
+  width: 7px;
+  height:7px;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  transform: rotate(-45deg);
+  margin-left: 10px;
+  margin-right: 5px;
+  display: inline-block;
+  position: relative;
+  top: 7px;
+}
+.top-inner-mobile img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top:33px;
+}
+.top-inner-mobile h3{
+  display: inline-block;
+  font-size:.7rem;
+  margin-left:41px;
+  padding-top:10px;
+}
+.top-inner-mobile p {
+  margin-left:67px;
+  font-size:.6rem;
+  opacity: .7;
+}
+.top-inner-mobile hr{
+  height:6px;
+  border:2px dotted white;
+  position: absolute;
+  top:45px;
+  right:15px;
+}
+.rest-inner-mobile{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rest-inner-mobile div{
+  margin-top: 10px;
+}
+.first-article, .second-article, .sixth-article{
+  background-color: #e4dddd;
+  border-radius: 10px;
+  width:96px;
+  padding: 5px;
+  font-size:.5rem;
+  margin-left: 5px;
+}
+.third-article{
+  margin-left:120px;
+}
+.third-article img{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.fourth-article{
+  margin-left: 145px;
+  background-color:white;
+  border-radius: 10px;
+  width:96px;
+  padding: 5px;
+  font-size:.5rem;
+}
+.fifth-article{
+  margin-left: 180px;
+  background-color:white;
+  border-radius: 10px;
+  width:60px;
+  padding: 5px;
+  font-size:.5rem;
+}
+.seventh-article, .eighth-article{
+  border-radius: 10px 10px 10px 5px;
+  background-color: #68426b;
+  width: 180px;
+  height: 15px;
+  color: white;
+  padding: 10px;
+  margin-left: 5px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.seventh-article div{
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: .6;
+  margin: 0;
+}
+.seventh-article p:nth-of-type(1){
+  display: inline-block;
+  opacity: .8;
+  font-size: .5rem;
+}
+.seventh-article p:nth-of-type(2){
+  display: inline-block;
+  font-size: 1rem;
+  margin-left:70px;
+}
+.eighth-article div{
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: .6;
+  margin: 0;
+}
+.eighth-article p:nth-of-type(1){
+  display: inline-block;
+  opacity: .8;
+  font-size: .5rem;
+}
+.eighth-article p:nth-of-type(2){
+  display: inline-block;
+  font-size: 1rem;
+  margin-left:70px;
+}
+.ninth-article{
+  background-color: white;
+  width: 220px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ninth-article .circle{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #692d64;
+  margin: 0;
+}
+.circle div{
+  width:7px;
+  height:7px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  transform: rotate(130deg);
+  margin-left:8px;
+}
+.ninth-article p{
+  font-size: .5rem;
+  margin-left: 3px;
+}
+#right-section{
+  position: absolute;
+  top: 185px;
+  right:320px;
+}
+#right-section h1{
+  margin-bottom: 30px;
+  font-size:2rem;
+}
+#right-section p{
+  line-height: 1.5;
+  opacity: .8;
+}
+.attribution{
+  text-align: center;
+  margin-top: 10px;
+}
